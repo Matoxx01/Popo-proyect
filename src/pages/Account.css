@@ -1,0 +1,67 @@
+.ion-padding {
+    padding: 16px;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .login-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 24px;
+  }
+  
+  .login-button {
+    margin-top: 20px;
+    --background: #3880ff;
+    --border-radius: 20px;
+  }
+  
+  .login-container ion-item {
+    margin-bottom: 16px; 
+  }
+  
+  .register-container {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .register-container ion-text {
+    font-size: 0.9rem;
+    margin-right: 8px;
+  }
+  
+  .register-container ion-button {
+    --color: #3880ff;
+    font-weight: bold;
+  }
+  .login-button, .logout-button, .delete-button {
+    margin-top: 20px;
+    --background: #3880ff;
+    --border-radius: 20px;
+    --box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    --padding: 10px;
+}
+
+.delete-button {
+    --background: #ff4d4d; /* Rojo para el botón de eliminar cuenta */
+}
+
+.login-button:hover, .logout-button:hover, .delete-button:hover {
+    transform: scale(1.02);
+    --box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+.ion-padding ion-button {
+    font-weight: bold;
+    --color: #fff;
+}

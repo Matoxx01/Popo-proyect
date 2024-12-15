@@ -1,0 +1,7 @@
+{
+  "name": "Popo-proyect",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

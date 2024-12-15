@@ -1,0 +1,16 @@
+:root {
+    --ion-color-primary: #3880ff; /* Color primario */
+    --ion-color-secondary: #0cd1e8; /* Color secundario */
+    --ion-color-tertiary: #7044ff; /* Color terciario */
+    
+    --ion-background-color: #ffffff; /* Fondo blanco */
+    --ion-text-color: #000000; /* Texto negro */
+    --ion-toolbar-background: #ffffff; /* Fondo de la barra de herramientas */
+    --ion-toolbar-color: #000000; /* Color del texto en la barra de herramientas */
+    --ion-item-background: #ffffff; /* Fondo de los elementos */
+    --ion-item-color: #000000; /* Color del texto en los elementos */
+    
+    --ion-refresher-background: #ffffff; /* Fondo del refresher */
+    --ion-refresher-color: #3880ff; /* Color del refresher */
+  }
+  
